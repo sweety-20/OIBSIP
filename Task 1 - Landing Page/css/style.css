@@ -1,0 +1,377 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* header section css starts here */
+
+.header_section {
+  background-color: #290000;
+  padding: 0 7%;
+  border-top: 5px solid #76c38f;
+}
+
+a.nav-link {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 11pt;
+}
+
+a.nav-link:hover {
+  color: #ffffff;
+}
+
+a.navbar-brand {
+  color: #ffffff;
+}
+
+a.nav-link.active {
+  background-color: #76c38f;
+  border-radius: 8px;
+}
+
+a.navbar-brand {
+  font-size: 28pt;
+  display: grid;
+}
+
+a.navbar-brand span {
+  font-size: 10pt;
+}
+
+.navbar-toggler-icon {
+  background: #ffffff;
+}
+
+.carousel-inner img {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+}
+
+.carousel-content {
+  display: flex;
+  padding: 7%;
+}
+
+.carousel-content h3 {
+  font-size: 36pt;
+  color: #ffffff;
+  width: 40%;
+}
+
+.carousel-content p {
+  font-size: 12pt;
+  color: #ffffff;
+  width: 42%;
+}
+
+.carousel-content button {
+  font-size: 12pt;
+  background-color: #76c38f;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 13pt;
+  padding: 8px;
+}
+
+.carousel-content img {
+  top: 100px;
+}
+
+/* header section css ends here */
+
+
+/* middle section css starts here */
+
+.middle_section {
+  background-color: #660000;
+  padding: 0 7% 5% 7%;
+}
+
+.container-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.box {
+  width: 250px;
+  height: 310px;
+  background-color: #ffffff;
+  margin: 60px 0px 40px 0px;
+  box-sizing: border-box;
+}
+
+.rectangle {
+  background-color: rgb(51, 51, 51);
+  margin: 28px 0px 0px 65px;
+  width: 120px;
+  height: 120px;
+}
+
+.box h3 {
+  font-size: 32px;
+  font-family: "Georgia";
+  color: rgb(51, 51, 51);
+  line-height: 1;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  margin: 12px 0px 0px 55px;
+  width: 0;
+  display: flex;
+}
+
+.box p {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(151, 151, 151);
+  line-height: 1.4;
+  text-align: center;
+  margin: 12px 0px 0px 42px;
+  width: 159px;
+  height: 47px;
+}
+
+.box:hover {
+  background-color: #76c38f;
+}
+
+.box:hover > h3 {
+  color: #ffffff;
+}
+
+.box:hover > p {
+  color: #ffffff;
+}
+
+.box:hover > .rectangle {
+  background-color: #ffffff;
+}
+
+.latest-work-h3 {
+  background-color: rgb(48, 48, 48);
+  width: 256px;
+  height: 48px;
+  margin: auto;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 0px 0px 30px;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  padding: 0.1rem;
+  margin: 40px 0px 0px 0px;
+}
+
+.cards {
+  max-width: 1200px;
+  display: grid;
+  gap: 1rem;
+  margin-left: 8%;
+}
+
+.card-rectangle {
+  background-color: rgb(51, 51, 51);
+  margin: 2px 0px 0px 2px;
+  width: 290px;
+  height: 190px;
+}
+
+.card h4 {
+  background-color: rgb(0, 0, 0);
+  width: 290px;
+  height: 30px;
+  margin-left: 2px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0%;
+  padding: 2%;
+  font-size: 14pt;
+}
+
+/* middle section css ends here */
+
+/* footer section css starts here */
+.footer_section {
+  padding: 0 7%;
+  background-color: #303030;
+  padding-bottom: 3%;
+}
+
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.2fr 2fr;
+  align-items: stretch;
+  padding: 5% 0% 0% 4%;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+
+.column h3 {
+  font-size: 16pt;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.column h4 {
+  font-size: 13pt;
+  font-family: "Georgia";
+  color: #76c38f;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.column span {
+  font-size: 10pt;
+  font-family: "Georgia";
+  color: #76c38f;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.column p {
+  font-size: 10pt;
+  font-family: "Georgia";
+  color: #666666;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.column h5 {
+  font-size: 13pt;
+  font-family: "Georgia";
+  color: #666666;
+  line-height: 1.2;
+  text-align: left;
+  width: 280px;
+}
+
+.column ul {
+  list-style-type: none;
+  display: block;
+  width: 110%;
+  line-height: 8px;
+}
+
+hr {
+  background-color: #666666;
+  width: 200px;
+}
+
+.column ul li a::before {
+  content: "\2756";
+  color: #666666;
+  margin-left: -35px;
+  margin-right: 10px;
+}
+
+.column ul li a {
+  color: #76c38f;
+}
+
+.column ul li a:hover {
+  text-decoration: none;
+  color: #76c38f;
+}
+
+input {
+  font-size: 1em;
+  padding: 1em;
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  padding-bottom: 15px;
+  background-color: #222222;
+  color: #989898;
+}
+
+textarea {
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+  padding-bottom: 15px;
+  background-color: #222222;
+  color: #989898;
+}
+
+.form-input {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #76c38f;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  margin-left: -80%;
+}
+
+.footer-div {
+  display: flex;
+  gap: 45%;
+  padding: 1% 10%;
+  background-color: #2b2b2b;
+  color: #989898;
+  font-size: 13pt;
+}
+
+.links span {
+  width: 100px;
+}
+
+/* footer section css ends here */
+
+
+/* media query starts here */
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* media query ends here */
